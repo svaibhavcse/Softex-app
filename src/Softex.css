@@ -16,7 +16,7 @@
 }
 
 .center{
-text-align: center;
+    text-align: center;
     display: block;
     justify-content: center;
     align-items: center;
@@ -81,6 +81,9 @@ color:white;
 .zoomout{
 transition:500ms;
 }
+.zoomout img{
+    border-radius: 2rem;
+}
 .container {
     width:50%;
 }
@@ -109,4 +112,141 @@ position:absolute;
 }
 ::selection {
     background:#F5CBA7 ;
+}
+.container-home{
+    padding:25px
+}
+.container-home video{
+        width: 50%;
+        border-radius: 2rem;
+        filter: brightness(0.75);
+}
+body{
+    padding:10px
+}
+.btn-1{
+    position: absolute;
+        transform: translate(10%, 100%);
+        padding: 10px 24px;
+        margin-left: 40px;
+        width: 40%;
+        
+}
+.profile-container{
+       text-align:center;
+       margin-left:25%;
+    transition: 500ms;
+       color:white;
+       margin-right: 25%;
+        backdrop-filter: blur(3px);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.18);
+        border-radius: 25px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        z-index: 4;
+
+}
+.signup-container ::placeholder{
+    color:black;
+
+}
+.profile-container input{
+        height: 56px;
+            width: 50%;
+            position: relative;
+            padding: 0px 16px;
+    transition: 500ms;
+            border: none;
+            background-color: transparent;
+            border-radius: 4px;
+            line-height: normal;
+            outline: none;
+            box-shadow: 2px 8px 8px 0px rgb(0, 0, 0, 0.60);
+            margin: 10px;    
+}
+.profile-container ::placeholder{
+    color:black;
+}
+.signup-container{
+      text-align: center;     
+      margin-left: 25%;
+      margin-right:25%;
+    transition: 500ms;
+    backdrop-filter: blur(2px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.18);
+    border-radius: 25px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        z-index: 4;
+        transition: 500ms;
+}
+.signup-container :hover{
+    transform: scale(1.05);
+    transition: 500ms;
+}
+.login-container  :hover {
+    transform: scale(1.07);
+    transition: 500ms;
+}
+.profile-container :hover {
+    transform: scale(1.07);
+    transition: 500ms;
+}
+.signup-container input{
+    height: 56px;
+    width:50%;
+    transition: 500ms;
+        position: relative;
+        padding: 0px 16px;
+        border: none;
+        background-color: transparent;
+        border-radius: 4px;
+        line-height: normal;
+        outline: none;
+        box-shadow: 2px 8px 8px 0px rgb(0, 0, 0,0.60);
+        margin: 10px;
+}
+.signup-container select {
+    height: 56px;
+    width: 50%;
+    transition: 500ms;
+    position: relative;
+    padding: 0px 16px;
+    border: none;
+    background-color: transparent;
+    border-radius: 4px;
+    line-height: normal;
+    outline: none;
+    box-shadow: 2px 8px 8px 0px rgb(0, 0, 0, 0.60);
+    margin: 10px;
+}
+.login-container {
+    text-align: center;
+    color:white;
+    margin-left: 25%;
+    transition: 500ms;
+    margin-right: 25%;
+    backdrop-filter: blur(2px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.18);
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    z-index: 4;
+
+}
+.login-container input {
+    height: 56px;
+    width: 50%;
+    color: white;
+    position: relative;
+    transition: 500ms;
+    padding: 0px 16px;
+    border: none;
+    background-color: transparent;
+    border-radius: 4px;
+    line-height: normal;
+    outline: none;
+    box-shadow: 2px 8px 8px 0px rgb(0, 0, 0, 0.60);
+    margin: 10px;
+}
+
+.login-container ::placeholder{
+    color:white
 }

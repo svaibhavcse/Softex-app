@@ -32,7 +32,7 @@ function Apple() {
             <p className="end">
               <Button variant="outline-dark">
                 <a
-                  href="https://github.com/svaibhavcse/Softex/releases/download/Softex/world-of-tanks-20-7-0-2519.dmg"
+                  href="https://github.com/svaibhavcse/Softex/releases/download/Softex.sources/Themes_3.9.2.2.apk"
                   className="link"
                 >
                   {" "}

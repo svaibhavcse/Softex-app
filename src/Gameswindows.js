@@ -9,7 +9,9 @@ import Container from "react-bootstrap/Container";
 import { FiDownload } from "react-icons/fi";
 import { AiOutlineCaretRight } from "react-icons/ai";
 import Button from "react-bootstrap/Button";
+import {useNavigate} from 'react-router-dom';
 function Gameswindows() {
+  const navigate = useNavigate()
     return (
       <div>
         <Softexmenu />
@@ -33,12 +35,11 @@ function Gameswindows() {
               </p>
 
               <p className="end">
-                <Button variant="outline-dark">
-                  <a href="/cricket22" className="link">
-                    {" "}
-                    Visit{" "}
-                  </a>
-                  <AiOutlineCaretRight />
+                <Button
+                  variant="outline-dark"
+                  onClick={() => navigate("/cricket22")}
+                >
+                  Visit <AiOutlineCaretRight />
                 </Button>
               </p>
 
@@ -66,7 +67,40 @@ function Gameswindows() {
 
               <p className="end">
                 <Button variant="outline-dark">
-                  <a href="/mk11" className="link">
+                  <a onClick={() => navigate("/mk11")} className="link">
+                    {" "}
+                    Visit{" "}
+                  </a>
+                  <AiOutlineCaretRight />
+                </Button>
+              </p>
+
+              <div className="brd" />
+            </Col>
+          </Row>
+
+          <Row>
+            <Col xs={4} md={2} className="center">
+              <img
+                src={require("./wwe2k18.png")}
+                width="140px"
+                className="zoom"
+              />
+            </Col>
+
+            <Col xs={8} md={10} className="ver">
+              <h5>WWE 2K18 </h5>
+              <p>
+                WWE 2K18 is a professional wrestling video game developed by
+                Yuke's and published by 2K Sports. It is the nineteenth
+                installment in the WWE game series and a follow-up to WWE 2K17.
+                It was released worldwide on October 17, 2017, for Microsoft
+                Windows, PlayStation 4, Xbox One and Nintendo Switch.
+              </p>
+
+              <p className="end">
+                <Button variant="outline-dark">
+                  <a onClick={() => navigate("/wwe2k18")} className="link">
                     {" "}
                     Visit{" "}
                   </a>

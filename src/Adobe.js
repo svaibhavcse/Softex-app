@@ -8,7 +8,9 @@ import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import { FiDownload } from "react-icons/fi";
 import Button from "react-bootstrap/Button";
+import { useNavigate } from "react-router-dom";
 function Adobe() {
+  const navigate = useNavigate();
   return (
     <>
       <Softexmenu />
@@ -91,7 +93,7 @@ function Adobe() {
 
             <p className="end">
               <Button variant="outline-dark">
-                <a href="#" className="link">
+                <a onClick={() => navigate("/#")} className="link">
                   {" "}
                   Download{" "}
                 </a>
@@ -211,7 +213,7 @@ function Adobe() {
 
             <p className="end">
               <Button variant="outline-dark">
-                <a href="#" className="link">
+                <a onClick={() => navigate("/#")} className="link">
                   {" "}
                   Download{" "}
                 </a>

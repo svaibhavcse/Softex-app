@@ -100,7 +100,12 @@ function Cricket22() {
         cricket ever seen.
       </my>
       <br />
-      <Carousel slide={true} variant="dark">
+      <Carousel
+        slide={true}
+        variant="dark"
+        interval={2000}
+        style={{ marginLeft: "50px", marginRight: "50px" }}
+      >
         <Carousel.Item className="zoomout">
           <img src={require("./cricket2.jpg")} width="100%" />
         </Carousel.Item>

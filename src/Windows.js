@@ -221,7 +221,7 @@ function Windows() {
 
             <p className="end">
               <Button variant="outline-dark">
-                <a href="#" className="link">
+                <a href="/" className="link">
                   {" "}
                   Download{" "}
                 </a>

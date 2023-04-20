@@ -99,8 +99,9 @@ function Mortalkombat11() {
         where the winning player can opt to revive their opponent, giving them a
         small amount of life.
       </my>
+      <hr />
       <br />
-      <h5> •AFTER MATH</h5>
+      <h5 className="brd"> • AFTER MATH</h5>
       <my style={{ padding: "20px" }}>
         Following Kronika's defeat, Fire God Liu Kang and Raiden attempt to
         utilize Kronika's Hourglass to restore history, but are interrupted by
@@ -122,7 +123,11 @@ function Mortalkombat11() {
         Kitana and her allies.
       </my>
       <br />
-      <Carousel slide={true} variant="dark">
+      <Carousel
+        slide={true}
+        variant="dark" interval={2000}
+        style={{ marginLeft: "50px", marginRight: "50px" }}
+      >
         <Carousel.Item className="zoomout">
           <img src={require("./mk111.jpg")} width="100%" />
         </Carousel.Item>
@@ -167,7 +172,7 @@ function Mortalkombat11() {
         as part of Shang Tsung's moveset, as well as one of Rain's fatalities;
         Kintaro, who appears in one of Shang Tsung's fatalities.
       </my>
-      <br /> <br /> <br /> 
+      <br /> <br /> <br />
       <my style={{ padding: "20px" }}>
         Publisher: Warner Bros. Games, Warner Bros.
       </my>
@@ -193,7 +198,7 @@ function Mortalkombat11() {
                 <Card.Title>Part 1</Card.Title>
                 <Button variant="outline-dark">
                   <a
-                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Cricket.22.part01.rar"
+                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Mortal.Kombat.11.Ultimate.part01.rar"
                     className="link"
                   >
                     Download
@@ -211,7 +216,7 @@ function Mortalkombat11() {
                 <Card.Title>Part 2</Card.Title>
                 <Button variant="outline-dark">
                   <a
-                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Cricket.22.part02.rar"
+                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Mortal.Kombat.11.Ultimate.part02.rar"
                     className="link"
                   >
                     Download
@@ -229,7 +234,7 @@ function Mortalkombat11() {
                 <Card.Title>Part 3</Card.Title>
                 <Button variant="outline-dark">
                   <a
-                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Cricket.22.part03.rar"
+                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Mortal.Kombat.11.Ultimate.part03.rar"
                     className="link"
                   >
                     Download
@@ -247,7 +252,7 @@ function Mortalkombat11() {
                 <Card.Title>Part 4</Card.Title>
                 <Button variant="outline-dark">
                   <a
-                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Cricket.22.part04.rar"
+                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Mortal.Kombat.11.Ultimate.part04.rar"
                     className="link"
                   >
                     Download
@@ -265,7 +270,7 @@ function Mortalkombat11() {
                 <Card.Title>Part 5</Card.Title>
                 <Button variant="outline-dark">
                   <a
-                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Cricket.22.part05.rar"
+                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Mortal.Kombat.11.Ultimate.part05.rar"
                     className="link"
                   >
                     Download
@@ -283,7 +288,7 @@ function Mortalkombat11() {
                 <Card.Title>Part 6</Card.Title>
                 <Button variant="outline-dark">
                   <a
-                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Cricket.22.part06.rar"
+                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Mortal.Kombat.11.Ultimate.part06.rar"
                     className="link"
                   >
                     Download
@@ -304,7 +309,7 @@ function Mortalkombat11() {
                 <Card.Title>Part 7</Card.Title>
                 <Button variant="outline-dark">
                   <a
-                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Cricket.22.part07.rar"
+                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Mortal.Kombat.11.Ultimate.part07.rar"
                     className="link"
                   >
                     Download
@@ -322,7 +327,7 @@ function Mortalkombat11() {
                 <Card.Title>Part 8</Card.Title>
                 <Button variant="outline-dark">
                   <a
-                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Cricket.22.part08.rar"
+                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Mortal.Kombat.11.Ultimate.part08.rar"
                     className="link"
                   >
                     Download
@@ -340,7 +345,7 @@ function Mortalkombat11() {
                 <Card.Title>Part 9</Card.Title>
                 <Button variant="outline-dark">
                   <a
-                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Cricket.22.part09.rar"
+                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Mortal.Kombat.11.Ultimate.part09.rar"
                     className="link"
                   >
                     Download
@@ -358,7 +363,7 @@ function Mortalkombat11() {
                 <Card.Title>Part 10</Card.Title>
                 <Button variant="outline-dark">
                   <a
-                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Cricket.22.part10.rar"
+                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Mortal.Kombat.11.Ultimate.part10.rar"
                     className="link"
                   >
                     Download
@@ -376,7 +381,7 @@ function Mortalkombat11() {
                 <Card.Title>Part 11</Card.Title>
                 <Button variant="outline-dark">
                   <a
-                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Cricket.22.part11.rar"
+                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Mortal.Kombat.11.Ultimate.part11.rar"
                     className="link"
                   >
                     Download
@@ -394,7 +399,7 @@ function Mortalkombat11() {
                 <Card.Title>Part 12</Card.Title>
                 <Button variant="outline-dark">
                   <a
-                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Cricket.22.part12.rar"
+                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Mortal.Kombat.11.Ultimate.part12.rar"
                     className="link"
                   >
                     Download
@@ -415,7 +420,7 @@ function Mortalkombat11() {
                 <Card.Title>Part 13</Card.Title>
                 <Button variant="outline-dark">
                   <a
-                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Cricket.22.part13.rar"
+                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Mortal.Kombat.11.Ultimate.part13.rar"
                     className="link"
                   >
                     Download
@@ -433,7 +438,7 @@ function Mortalkombat11() {
                 <Card.Title>Part 14</Card.Title>
                 <Button variant="outline-dark">
                   <a
-                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Cricket.22.part14.rar"
+                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Mortal.Kombat.11.Ultimate.part14.rar"
                     className="link"
                   >
                     Download
@@ -451,7 +456,7 @@ function Mortalkombat11() {
                 <Card.Title>Part 15</Card.Title>
                 <Button variant="outline-dark">
                   <a
-                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Cricket.22.part15.rar"
+                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Mortal.Kombat.11.Ultimate.part15.rar"
                     className="link"
                   >
                     Download
@@ -469,7 +474,7 @@ function Mortalkombat11() {
                 <Card.Title>Part 16</Card.Title>
                 <Button variant="outline-dark">
                   <a
-                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Cricket.22.part16.rar"
+                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Mortal.Kombat.11.Ultimate.part16.rar"
                     className="link"
                   >
                     Download
@@ -487,7 +492,7 @@ function Mortalkombat11() {
                 <Card.Title>Part 17</Card.Title>
                 <Button variant="outline-dark">
                   <a
-                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Cricket.22.part17.rar"
+                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Mortal.Kombat.11.Ultimate.part17.rar"
                     className="link"
                   >
                     Download
@@ -505,7 +510,7 @@ function Mortalkombat11() {
                 <Card.Title>Part 18</Card.Title>
                 <Button variant="outline-dark">
                   <a
-                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Cricket.22.part18.rar"
+                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Mortal.Kombat.11.Ultimate.part18.rar"
                     className="link"
                   >
                     Download
@@ -526,7 +531,7 @@ function Mortalkombat11() {
                 <Card.Title>Part 19</Card.Title>
                 <Button variant="outline-dark">
                   <a
-                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Cricket.22.part19.rar"
+                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Mortal.Kombat.11.Ultimate.part19.rar"
                     className="link"
                   >
                     Download
@@ -544,7 +549,7 @@ function Mortalkombat11() {
                 <Card.Title>Part 20</Card.Title>
                 <Button variant="outline-dark">
                   <a
-                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Cricket.22.part20.rar"
+                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Mortal.Kombat.11.Ultimate.part20.rar"
                     className="link"
                   >
                     Download
@@ -562,7 +567,7 @@ function Mortalkombat11() {
                 <Card.Title>Part 21</Card.Title>
                 <Button variant="outline-dark">
                   <a
-                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Cricket.22.part21.rar"
+                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Mortal.Kombat.11.Ultimate.part21.rar"
                     className="link"
                   >
                     Download
@@ -580,7 +585,7 @@ function Mortalkombat11() {
                 <Card.Title>Part 22</Card.Title>
                 <Button variant="outline-dark">
                   <a
-                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Cricket.22.part22.rar"
+                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Mortal.Kombat.11.Ultimate.part22.rar"
                     className="link"
                   >
                     Download
@@ -598,7 +603,7 @@ function Mortalkombat11() {
                 <Card.Title>Part 23</Card.Title>
                 <Button variant="outline-dark">
                   <a
-                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Cricket.22.part23.rar"
+                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Mortal.Kombat.11.Ultimate.part23.rar"
                     className="link"
                   >
                     Download
@@ -616,7 +621,310 @@ function Mortalkombat11() {
                 <Card.Title>Part 24</Card.Title>
                 <Button variant="outline-dark">
                   <a
-                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Cricket.22.part24.rar"
+                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Mortal.Kombat.11.Ultimate.part24.rar"
+                    className="link"
+                  >
+                    Download
+                  </a>{" "}
+                  <FiDownload />
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+        <br />
+
+        <br />
+
+        <Row>
+          <Col>
+            <Card style={{ width: "10rem" }} className="zooml">
+              <img src={require("./mk11card.png")} />
+              <Card.Body>
+                <Card.Title>Part 25</Card.Title>
+                <Button variant="outline-dark">
+                  <a
+                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Mortal.Kombat.11.Ultimate.part25.rar"
+                    className="link"
+                  >
+                    Download
+                  </a>{" "}
+                  <FiDownload />
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col>
+            <Card style={{ width: "10rem" }} className="zooml">
+              <img src={require("./mk11card.png")} />
+              <Card.Body>
+                <Card.Title>Part 26</Card.Title>
+                <Button variant="outline-dark">
+                  <a
+                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Mortal.Kombat.11.Ultimate.part26.rar"
+                    className="link"
+                  >
+                    Download
+                  </a>{" "}
+                  <FiDownload />
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col>
+            <Card style={{ width: "10rem" }} className="zooml">
+              <img src={require("./mk11card.png")} />
+              <Card.Body>
+                <Card.Title>Part 27</Card.Title>
+                <Button variant="outline-dark">
+                  <a
+                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Mortal.Kombat.11.Ultimate.part27.rar"
+                    className="link"
+                  >
+                    Download
+                  </a>{" "}
+                  <FiDownload />
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col>
+            <Card style={{ width: "10rem" }} className="zooml">
+              <img src={require("./mk11card.png")} />
+              <Card.Body>
+                <Card.Title>Part 28</Card.Title>
+                <Button variant="outline-dark">
+                  <a
+                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Mortal.Kombat.11.Ultimate.part28.rar"
+                    className="link"
+                  >
+                    Download
+                  </a>{" "}
+                  <FiDownload />
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col>
+            <Card style={{ width: "10rem" }} className="zooml">
+              <img src={require("./mk11card.png")} />
+              <Card.Body>
+                <Card.Title>Part 29</Card.Title>
+                <Button variant="outline-dark">
+                  <a
+                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Mortal.Kombat.11.Ultimate.part29.rar"
+                    className="link"
+                  >
+                    Download
+                  </a>{" "}
+                  <FiDownload />
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col>
+            <Card style={{ width: "10rem" }} className="zooml">
+              <img src={require("./mk11card.png")} />
+              <Card.Body>
+                <Card.Title>Part 30</Card.Title>
+                <Button variant="outline-dark">
+                  <a
+                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Mortal.Kombat.11.Ultimate.part30.rar"
+                    className="link"
+                  >
+                    Download
+                  </a>{" "}
+                  <FiDownload />
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+        <br />
+
+        <br />
+
+        <Row>
+          <Col>
+            <Card style={{ width: "10rem" }} className="zooml">
+              <img src={require("./mk11card.png")} />
+              <Card.Body>
+                <Card.Title>Part 31</Card.Title>
+                <Button variant="outline-dark">
+                  <a
+                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Mortal.Kombat.11.Ultimate.part31.rar"
+                    className="link"
+                  >
+                    Download
+                  </a>{" "}
+                  <FiDownload />
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col>
+            <Card style={{ width: "10rem" }} className="zooml">
+              <img src={require("./mk11card.png")} />
+              <Card.Body>
+                <Card.Title>Part 32</Card.Title>
+                <Button variant="outline-dark">
+                  <a
+                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Mortal.Kombat.11.Ultimate.part32.rar"
+                    className="link"
+                  >
+                    Download
+                  </a>{" "}
+                  <FiDownload />
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col>
+            <Card style={{ width: "10rem" }} className="zooml">
+              <img src={require("./mk11card.png")} />
+              <Card.Body>
+                <Card.Title>Part 33</Card.Title>
+                <Button variant="outline-dark">
+                  <a
+                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Mortal.Kombat.11.Ultimate.part33.rar"
+                    className="link"
+                  >
+                    Download
+                  </a>{" "}
+                  <FiDownload />
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col>
+            <Card style={{ width: "10rem" }} className="zooml">
+              <img src={require("./mk11card.png")} />
+              <Card.Body>
+                <Card.Title>Part 34</Card.Title>
+                <Button variant="outline-dark">
+                  <a
+                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Mortal.Kombat.11.Ultimate.part34.rar"
+                    className="link"
+                  >
+                    Download
+                  </a>{" "}
+                  <FiDownload />
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col>
+            <Card style={{ width: "10rem" }} className="zooml">
+              <img src={require("./mk11card.png")} />
+              <Card.Body>
+                <Card.Title>Part 35</Card.Title>
+                <Button variant="outline-dark">
+                  <a
+                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Mortal.Kombat.11.Ultimate.part35.rar"
+                    className="link"
+                  >
+                    Download
+                  </a>{" "}
+                  <FiDownload />
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col>
+            <Card style={{ width: "10rem" }} className="zooml">
+              <img src={require("./mk11card.png")} />
+              <Card.Body>
+                <Card.Title>Part 36</Card.Title>
+                <Button variant="outline-dark">
+                  <a
+                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Mortal.Kombat.11.Ultimate.part36.rar"
+                    className="link"
+                  >
+                    Download
+                  </a>{" "}
+                  <FiDownload />
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+        <br />
+
+        <br />
+
+        <Row>
+          <Col>
+            <Card style={{ width: "10rem" }} className="zooml">
+              <img src={require("./mk11card.png")} />
+              <Card.Body>
+                <Card.Title>Part 37</Card.Title>
+                <Button variant="outline-dark">
+                  <a
+                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Mortal.Kombat.11.Ultimate.part37.rar"
+                    className="link"
+                  >
+                    Download
+                  </a>{" "}
+                  <FiDownload />
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col>
+            <Card style={{ width: "10rem" }} className="zooml">
+              <img src={require("./mk11card.png")} />
+              <Card.Body>
+                <Card.Title>Part 38</Card.Title>
+                <Button variant="outline-dark">
+                  <a
+                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Mortal.Kombat.11.Ultimate.part38.rar"
+                    className="link"
+                  >
+                    Download
+                  </a>{" "}
+                  <FiDownload />
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col>
+            <Card style={{ width: "10rem" }} className="zooml">
+              <img src={require("./mk11card.png")} />
+              <Card.Body>
+                <Card.Title>Part 39</Card.Title>
+                <Button variant="outline-dark">
+                  <a
+                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Mortal.Kombat.11.Ultimate.part39.rar"
+                    className="link"
+                  >
+                    Download
+                  </a>{" "}
+                  <FiDownload />
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col>
+            <Card style={{ width: "10rem" }} className="zooml">
+              <img src={require("./mk11card.png")} />
+              <Card.Body>
+                <Card.Title>Part 40</Card.Title>
+                <Button variant="outline-dark">
+                  <a
+                    href="https://github.com/svaibhavcse/Softex/releases/download/Softex/Mortal.Kombat.11.Ultimate.part40.rar"
                     className="link"
                   >
                     Download

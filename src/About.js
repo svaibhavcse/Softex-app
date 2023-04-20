@@ -6,6 +6,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Softexmenu from "./Softexmenu";
+import { GrLinkedin } from "react-icons/gr";
 function About() {
   return (
     <div>
@@ -166,15 +167,21 @@ function About() {
             </div>
           </Col>
         </Row>
-        <h5>Developed By</h5>
-        <Row style={{ backgroundColor: "lightgray" }}>
+
+        <Row style={{ backgroundColor: "lightgray" ,borderRadius:"2rem"}}>
           <Col>
-            <br />
+          <br/>
+            <h5>Developed By :</h5>
+            <p>VAIBHAV S </p>
             <a
               href="https://www.linkedin.com/in/vaibhav-shanmugasundaram-293163240/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BhmbEHWhFRJCMdNyIHXVZjQ%3D%3D"
               className="ad"
             >
-              <p>VAIBHAV S</p>
+              {" "}
+              <p className="center">
+                {" "}
+                <GrLinkedin />
+              </p>{" "}
             </a>
           </Col>
         </Row>
